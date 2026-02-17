@@ -1,7 +1,0 @@
-nltk
-scikit-learn
-pandas
-numpy
-emoji
-matplotlib
-seaborn
