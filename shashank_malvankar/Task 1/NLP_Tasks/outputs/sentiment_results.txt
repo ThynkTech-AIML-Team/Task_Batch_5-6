@@ -1,0 +1,21 @@
+Sentiment Analysis Results
+=========================
+
+Review: This movie was amazing. I loved it.
+Sentiment: Positive
+-------------------------
+Review: The film was terrible and boring.
+Sentiment: Negative
+-------------------------
+Review: Absolutely fantastic performance by the actors.
+Sentiment: Positive
+-------------------------
+Review: Worst movie I have ever seen.
+Sentiment: Negative
+-------------------------
+Review: I enjoyed every moment of the film.
+Sentiment: Positive
+-------------------------
+Review: The plot was dull and predictable.
+Sentiment: Negative
+-------------------------
