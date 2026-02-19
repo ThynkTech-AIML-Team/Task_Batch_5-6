@@ -8,7 +8,7 @@ I experimented with two main models: Logistic Regression and Naive Bayes. Both m
 Both models performed well, with Logistic Regression achieving high accuracy (typically above 95% on the test set). The notebooks also show confusion matrices and highlight the most important words for each class, making the results easy to interpret.
 
 
-# Welcome to the NLP Mini Projects
+# NLP Mini Projects
 
 ### 1. Basic Text Classification
 **File:** `1_Basic_Text_Classification.ipynb`
@@ -40,7 +40,3 @@ Fake_news_detection/
     True.csv
 ```
 
-## A Few Notes
-
-- All notebooks show results and plots as you run them—no extra setup needed.
-- Want to share just your code? You can clear outputs before uploading or sharing.
