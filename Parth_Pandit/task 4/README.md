@@ -56,9 +56,9 @@ Three classification models were trained and evaluated:
 
 | Model | Accuracy (Approx) |
 |------|------------------|
-| Logistic Regression | ~79–81% |
+| Logistic Regression | ~78–80% |
 | Decision Tree | ~75–78% |
-| Random Forest | ~82–85% |
+| Random Forest | ~80–82% |
 
 ### Evaluation Metrics:
 - Accuracy
@@ -86,4 +86,5 @@ An interactive web application was built using **Streamlit**.
 - Age
 - Fare Paid
 - Family Size
+
 - Port of Embarkation
