@@ -1,76 +1,86 @@
-NLP Task Submission - Sanika Mulay
+Task 4 - Task 3: House Price Prediction Web App Deployment
+Objective
+The objective of this task is to deploy the trained machine learning model as an interactive web application using Streamlit. The application allows users to input house features and receive a predicted house price based on the trained Random Forest Regression model.
 
-This repository contains three Natural Language Processing (NLP) tasks completed as part of the AIML training program.
+This demonstrates the practical deployment of a machine learning model into a real-world usable interface.
 
----
+Model Information
+The deployed model is a Random Forest Regressor trained in Task 2 using the House Price dataset.
 
-Task 1: Basic Text Classification
+The model was trained using the following features:
 
-## Objective
-Build a simple text classification model and compare multiple algorithms.
+bedrooms
+bathrooms
+sqft_living
+sqft_lot
+floors
+waterfront
+view
+condition
+grade
+sqft_above
+sqft_basement
+yr_built
+house_age (engineered feature)
+total_size (engineered feature)
+was_renovated (engineered feature)
+Target variable:
 
-## Dataset Used
-20 Newsgroups Dataset (Binary Classification)
+price
+The trained model was saved as: model/house_price_model.pkl
 
-## Models Used
-- Naive Bayes
-- Logistic Regression
-- Support Vector Machine (SVM)
+Technologies Used
+Python
+Streamlit
+Scikit-learn
+NumPy
+Pickle
+Application Features
+The Streamlit web application provides an interactive interface where users can input house characteristics such as:
 
-## Evaluation Metrics
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
+Number of bedrooms
+Number of bathrooms
+Living area
+Lot area
+Number of floors
+Waterfront status
+View rating
+Condition rating
+Grade
+Sqft above ground
+Sqft basement
+Year built
+Year renovated
+The app performs feature engineering and predicts the house price using the trained Random Forest model.
 
-## Result
-Compared performance of three models and analyzed their accuracy and prediction behavior.
+How the Application Works
+User enters house details through the web interface
+The app performs necessary feature engineering:
+house_age
+total_size
+was_renovated
+The trained model predicts the house price
+The predicted price is displayed to the user
+How to Run the Application
+Step 1: Open terminal or Anaconda Prompt
+Navigate to the app folder: cd "Task 4/Task 3 - Deployment/app"
 
----
+Step 2: Run Streamlit
+streamlit run app.py
 
-Task 2: Word Embedding Mini Task
+Step 3: Open browser
+The app will automatically open at: http://localhost:8501
 
-## Model Used
-GloVe (glove-wiki-gigaword-50)
+Output
+The application successfully predicts house prices based on user input and provides an interactive user interface.
 
-## Tasks Completed
-- Loaded pretrained embedding model
-- Found similar words (example: king → queen)
-- Performed word analogy (king - man + woman)
-- Visualized 10 words using PCA (2D plot)
+Screenshots of the running application are included as part of submission.
 
-## Result
-Successfully demonstrated semantic similarity and word relationships using pretrained embeddings.
+Conclusion
+This task demonstrates successful deployment of a machine learning model into a real-time prediction system using Streamlit. The model can now be used by end users to estimate house prices based on property features.
 
----
-Task 3: Mini NLP Application - Fake News Detection System
+This completes the full machine learning pipeline:
 
-## Objective
-Classify news articles as Fake or Real.
-
-## Method Used
-- Text Cleaning
-- TF-IDF Vectorization
-- Logistic Regression Model
-
-## Evaluation
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-- Top Important Words Displayed
-
-## Result
-Built an end-to-end NLP pipeline for fake news classification and analyzed feature importance.
-
----
-
-# Tools & Libraries Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Gensim
-
----
-
+Data Analysis
+Model Development
+Model Deployment
