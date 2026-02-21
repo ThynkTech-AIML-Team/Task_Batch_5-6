@@ -1,4 +1,4 @@
-# Task 4 – Exploratory Data Analysis & Machine Learning
+# Day 4 Task – Exploratory Data Analysis & Machine Learning
 
 ## Objective
 To perform exploratory data analysis (EDA) and build multiple machine learning models on a real-world dataset.
