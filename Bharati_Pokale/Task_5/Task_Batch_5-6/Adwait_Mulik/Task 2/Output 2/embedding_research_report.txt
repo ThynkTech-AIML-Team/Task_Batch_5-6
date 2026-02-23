@@ -1,5 +1,0 @@
-=== WORD EMBEDDING RESEARCH REPORT ===
-Analogy Result: king - man + woman = queen
-
-FastText vs GloVe:
-FastText handles Out-of-Vocabulary (OOV) words better because it uses sub-word info.

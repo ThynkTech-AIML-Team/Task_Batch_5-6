@@ -1,6 +1,0 @@
-gensim
-numpy
-scikit-learn
-matplotlib
-seaborn
-pandas

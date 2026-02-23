@@ -1,4 +1,0 @@
-TASK 3E: LOWERCASE & NORMALIZATION
-===================================
-
-hello there! welcome to natural language processing (nlp). nlp is amazing!!! 😃😃 it allows computers to understand human language. contact us at support@example.com or admin123@test-mail.org for more information. follow us on social media @nlp_official and use #nlp #artificialintelligence. users are studying, studies, and studied different nlp techniques. running runners ran easily. cats running faster than dogs. visit our website: https://example.com for more details. this text contains irregular spacing, punctuation!!! and numbers 12345 67890. machine learning and nlp are closely related fields in artificial intelligence. 

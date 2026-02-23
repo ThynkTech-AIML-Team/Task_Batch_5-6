@@ -1,6 +1,0 @@
-=== NER RESUME PARSER RESULTS ===
-
-Names: Adwait Mulik, Machine Learning
-Organizations: Computer Engineering, ISBM College of Engineering, SQL
-Locations: Python
-Education/Other: 

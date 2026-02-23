@@ -1,5 +1,0 @@
-OFFICE NLP REPORT: TEXT STRUCTURE
-=================================
-Total Tokens: 30
-Total Sentences: 4
-Total Paragraphs: 2
