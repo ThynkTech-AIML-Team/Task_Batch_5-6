@@ -3,23 +3,23 @@
 
 # 1️ Image Classification Project
 
-##  Objective- Build an image classification model using traditional Machine Learning and Deep Learning techniques.
+#  Objective- Build an image classification model using traditional Machine Learning and Deep Learning techniques.
 
-##  Dataset Used- MNIST Handwritten Digit Dataset  
+#  Dataset Used- MNIST Handwritten Digit Dataset  
 - 70,000 grayscale images  
 - Image size: 28x28  
 - 10 Classes (0–9 digits)
 
-##  Data Preprocessing
+#  Data Preprocessing
 - Normalization (Pixel values scaled 0–1)
 - Reshaped for CNN (28x28x1)
 - Train-Test Split
 
-##  Models Implemented
+#  Models Implemented
 - Logistic Regression | Traditional ML | ~92% |
 - CNN | Deep Learning | ~98–99% |
 
-##  Evaluation Metrics
+#  Evaluation Metrics
 - Accuracy
 - Confusion Matrix
 - Training vs Validation Accuracy Graph
@@ -39,7 +39,7 @@
 
 # 3️ Mini Deployment Project
 
-##  Option A: Digit Recognition Web App
+#  Option A: Digit Recognition Web App
 
 Built using:
 - Streamlit
