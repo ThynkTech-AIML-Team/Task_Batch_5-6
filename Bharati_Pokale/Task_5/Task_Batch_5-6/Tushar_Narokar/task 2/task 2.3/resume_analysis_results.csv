@@ -1,0 +1,13 @@
+filename,name,email,phone,skills,education,organizations,experience
+jane_smith.txt,Jane Smith,jane.smith@email.me,+44 20 7946 0123,"aws, docker, git, mongodb, node.js, pandas, power bi, python, react, rest api, scikit-learn, sql, tableau","Master of Science in Software Engineering, University of Cambridge, 2019; B.Tech in Information Technology, IIT Delhi, 2017; Data Science Intern — Flipkart, 2018; Amazon, Flipkart, University of Cambridge, IIT Delhi, ACM","University of Cambridge; Information Technology; Amazon; Node.js
+  - Managed; AWS
+
+Data Science Intern; Scikit; AWS; SQL; Tableau, Power BI; Flipkart; ACM","Master of Science in Software Engineering, University of Cambridge, 2019; Full Stack Developer — Amazon, 2019–Present; Data Science Intern — Flipkart, 2018"
+john_doe.txt,"John Doe
+john.doe@example.com
++1-202-555-0123",john.doe@example.com,+1-202-555-0123,"aws, docker, flask, git, java, kubernetes, machine learning, nlp, pandas, python, scikit-learn, sql, tensorflow","B.S. in Computer Science, Stanford University, 2018; M.S. in Data Science, MIT, 2020; Google, Microsoft, Stanford University, MIT, IEEE","Stanford University; Data Science; MIT; Machine Learning Engineer; Python; AWS; Kubernetes
+
+Software Engineer Intern; Microsoft; SQL; TensorFlow; Docker; Pandas; NLP; IEEE","Machine Learning Engineer — Google, 2020–Present; Software Engineer Intern — Microsoft, 2019"
+rahul_verma.txt,"Rahul Verma
+rahul.verma@techmail.com
++91-",rahul.verma@techmail.com,+91-9123456789,"deep learning, git, hadoop, keras, nlp, numpy, pandas, postgresql, power bi, python, pytorch, r, spark, sql, tableau","B.Tech in Electronics and Communication, IIT Bombay, 2016; MBA in Technology Management, IIM Ahmedabad, 2018; Infosys, Wipro, IIT Bombay, IIM Ahmedabad, IEEE",B.Tech in Electronics and Communication; IIT Bombay; IIM Ahmedabad; Infosys; Python; Power BI; PyTorch; NLP; Hadoop; Wipro,"Data Analyst — Infosys, 2018–2021; Senior Data Scientist — Wipro, 2021–Present; - Led a team of 5 engineers on NLP projects"

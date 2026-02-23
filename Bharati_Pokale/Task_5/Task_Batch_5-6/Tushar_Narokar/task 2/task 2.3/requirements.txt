@@ -1,0 +1,8 @@
+spacy
+pdfminer.six
+docx2txt
+pandas
+pymupdf
+pytesseract
+Pillow
+pdf2image
