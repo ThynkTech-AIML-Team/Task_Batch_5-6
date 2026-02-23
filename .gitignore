@@ -1,1 +1,15 @@
+# Virtual environments
+venv/
+.venv/
+venvv/
+new_env/
+nlp_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large embeddings
+glove*.txt
+glove*.zip
 venv/ 
