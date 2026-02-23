@@ -1,0 +1,28 @@
+TASK 3F: REGEX OPERATIONS
+=========================
+
+EMAILS FOUND:
+['support@example.com', 'admin123@test-mail.org']
+
+TEXT WITHOUT NUMBERS:
+Hello there! Welcome to Natural Language Processing (NLP).
+
+NLP is AMAZING!!! 😃😃 It allows computers to understand human language.
+
+Contact us at support@example.com or admin@test-mail.org for more information.
+
+Follow us on social media @NLP_Official and use #NLP #ArtificialIntelligence.
+
+Users are studying, studies, and studied different NLP techniques.
+
+Running runners ran easily. Cats running faster than dogs.
+
+Visit our website: https://example.com for more details.
+
+This    text      contains    irregular   spacing, punctuation!!! and numbers  .
+
+Machine Learning and NLP are closely related fields in Artificial Intelligence.
+
+
+TEXT WITH NORMALIZED SPACING:
+Hello there! Welcome to Natural Language Processing (NLP). NLP is AMAZING!!! 😃😃 It allows computers to understand human language. Contact us at support@example.com or admin123@test-mail.org for more information. Follow us on social media @NLP_Official and use #NLP #ArtificialIntelligence. Users are studying, studies, and studied different NLP techniques. Running runners ran easily. Cats running faster than dogs. Visit our website: https://example.com for more details. This text contains irregular spacing, punctuation!!! and numbers 12345 67890. Machine Learning and NLP are closely related fields in Artificial Intelligence. 
