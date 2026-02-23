@@ -1,0 +1,12 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore large embedding files
+**/glove.6B.100d.txt
+
+# Ignore demo videos if large
+*.mp4
