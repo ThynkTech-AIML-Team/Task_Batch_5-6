@@ -1,86 +1,624 @@
-Task 4 - Task 3: House Price Prediction Web App Deployment
-Objective
-The objective of this task is to deploy the trained machine learning model as an interactive web application using Streamlit. The application allows users to input house features and receive a predicted house price based on the trained Random Forest Regression model.
+BASIC TEXT CLASSIFICATION PROJECT
 
-This demonstrates the practical deployment of a machine learning model into a real-world usable interface.
 
-Model Information
-The deployed model is a Random Forest Regressor trained in Task 2 using the House Price dataset.
 
-The model was trained using the following features:
+Objective:
 
-bedrooms
-bathrooms
-sqft_living
-sqft_lot
-floors
-waterfront
-view
-condition
-grade
-sqft_above
-sqft_basement
-yr_built
-house_age (engineered feature)
-total_size (engineered feature)
-was_renovated (engineered feature)
-Target variable:
+To build a simple text classification model and compare 2–3 machine learning algorithms.
 
-price
-The trained model was saved as: model/house_price_model.pkl
 
-Technologies Used
-Python
-Streamlit
-Scikit-learn
-NumPy
-Pickle
-Application Features
-The Streamlit web application provides an interactive interface where users can input house characteristics such as:
 
-Number of bedrooms
-Number of bathrooms
-Living area
-Lot area
-Number of floors
-Waterfront status
-View rating
-Condition rating
-Grade
-Sqft above ground
-Sqft basement
-Year built
-Year renovated
-The app performs feature engineering and predicts the house price using the trained Random Forest model.
+Dataset Used:
 
-How the Application Works
-User enters house details through the web interface
-The app performs necessary feature engineering:
-house_age
-total_size
-was_renovated
-The trained model predicts the house price
-The predicted price is displayed to the user
-How to Run the Application
-Step 1: Open terminal or Anaconda Prompt
-Navigate to the app folder: cd "Task 4/Task 3 - Deployment/app"
+IMDb Sentiment Dataset
 
-Step 2: Run Streamlit
-streamlit run app.py
 
-Step 3: Open browser
-The app will automatically open at: http://localhost:8501
 
-Output
-The application successfully predicts house prices based on user input and provides an interactive user interface.
+Movie reviews dataset
 
-Screenshots of the running application are included as part of submission.
 
-Conclusion
-This task demonstrates successful deployment of a machine learning model into a real-time prediction system using Streamlit. The model can now be used by end users to estimate house prices based on property features.
 
-This completes the full machine learning pipeline:
+Two classes: Positive and Negative
 
-Data Analysis
-Model Development
-Model Deployment
+
+
+Used for sentiment analysis
+
+
+
+Steps Performed:
+
+
+
+Text Cleaning:
+
+
+
+Converted text to lowercase
+
+
+
+Removed punctuation
+
+
+
+Removed special characters
+
+
+
+Removed extra spaces
+
+
+
+Stopword Removal:
+
+
+
+Removed common words such as “the”, “is”, “and”, etc.
+
+
+
+Used NLTK stopwords
+
+
+
+Text Vectorization:
+
+
+
+Used CountVectorizer
+
+
+
+Used TF-IDF Vectorizer
+
+
+
+Converted text into numerical feature vectors
+
+
+
+Models Used:
+
+
+
+Naive Bayes
+
+
+
+Simple and fast
+
+
+
+Works well for text classification
+
+
+
+Logistic Regression
+
+
+
+Strong baseline model
+
+
+
+Performs well with TF-IDF features
+
+
+
+Support Vector Machine (Optional)
+
+
+
+Effective for high-dimensional text data
+
+
+
+Often gives high accuracy
+
+
+
+Evaluation Metrics:
+
+
+
+Accuracy
+
+
+
+Measures overall correct predictions
+
+
+
+Confusion Matrix
+
+
+
+Shows correct and incorrect predictions for each class
+
+
+
+Classification Report
+
+
+
+Includes Precision, Recall, and F1-score
+
+
+
+Bonus Tasks:
+
+
+
+Compared CountVectorizer vs TF-IDF performance
+
+
+
+Displayed top important words for Positive and Negative classes using model coefficients
+
+
+
+Conclusion:
+
+Logistic Regression with TF-IDF generally gave the best performance. TF-IDF performed better than CountVectorizer because it reduces the importance of frequently occurring words.
+
+
+
+WORD EMBEDDING MINI TASK
+
+
+
+Objective:
+
+To understand and work with pretrained word embeddings.
+
+
+
+Tasks Performed:
+
+
+
+Loaded pretrained Word2Vec and/or GloVe embeddings
+
+
+
+Similar Words:
+
+Example:
+
+king → queen, prince, royal
+
+
+
+Analogy Task:
+
+king - man + woman ≈ queen
+
+
+
+PCA Visualization:
+
+
+
+Selected 10–20 words
+
+
+
+Reduced dimensions using PCA
+
+
+
+Plotted words in 2D space
+
+
+
+Bonus:
+
+
+
+Compared similarity results between Word2Vec and GloVe
+
+
+
+Observed slight differences in semantic relationships
+
+
+
+Conclusion:
+
+Word embeddings capture semantic meaning of words and allow similarity and analogy operations.
+
+
+
+MINI NLP APPLICATION – FAKE NEWS DETECTION SYSTEM
+
+
+
+Objective:
+
+To build a machine learning model to classify news as Fake or Real.
+
+
+
+Dataset:
+
+Fake and Real News dataset
+
+Two classes:
+
+
+
+Fake
+
+
+
+Real
+
+
+
+Steps Performed:
+
+
+
+Text Cleaning
+
+
+
+Stopword Removal
+
+
+
+TF-IDF Vectorization
+
+
+
+Model Used:
+
+
+
+Logistic Regression
+
+OR
+
+
+
+Naive Bayes
+
+
+
+Evaluation:
+
+
+
+Accuracy Score
+
+
+
+Confusion Matrix
+
+
+
+Classification Report
+
+
+
+Top Important Words:
+
+
+
+Extracted most important words for Fake and Real classes using model coefficients
+
+BASIC TEXT CLASSIFICATION PROJECT
+
+
+
+Objective:
+
+To build a simple text classification model and compare 2–3 machine learning algorithms.
+
+
+
+Dataset Used:
+
+IMDb Sentiment Dataset
+
+
+
+Movie reviews dataset
+
+
+
+Two classes: Positive and Negative
+
+
+
+Used for sentiment analysis
+
+
+
+Steps Performed:
+
+
+
+Text Cleaning:
+
+
+
+Converted text to lowercase
+
+
+
+Removed punctuation
+
+
+
+Removed special characters
+
+
+
+Removed extra spaces
+
+
+
+Stopword Removal:
+
+
+
+Removed common words such as “the”, “is”, “and”, etc.
+
+
+
+Used NLTK stopwords
+
+
+
+Text Vectorization:
+
+
+
+Used CountVectorizer
+
+
+
+Used TF-IDF Vectorizer
+
+
+
+Converted text into numerical feature vectors
+
+
+
+Models Used:
+
+
+
+Naive Bayes
+
+
+
+Simple and fast
+
+
+
+Works well for text classification
+
+
+
+Logistic Regression
+
+
+
+Strong baseline model
+
+
+
+Performs well with TF-IDF features
+
+
+
+Support Vector Machine (Optional)
+
+
+
+Effective for high-dimensional text data
+
+
+
+Often gives high accuracy
+
+
+
+Evaluation Metrics:
+
+
+
+Accuracy
+
+
+
+Measures overall correct predictions
+
+
+
+Confusion Matrix
+
+
+
+Shows correct and incorrect predictions for each class
+
+
+
+Classification Report
+
+
+
+Includes Precision, Recall, and F1-score
+
+
+
+Bonus Tasks:
+
+
+
+Compared CountVectorizer vs TF-IDF performance
+
+
+
+Displayed top important words for Positive and Negative classes using model coefficients
+
+
+
+Conclusion:
+
+Logistic Regression with TF-IDF generally gave the best performance. TF-IDF performed better than CountVectorizer because it reduces the importance of frequently occurring words.
+
+
+
+WORD EMBEDDING MINI TASK
+
+
+
+Objective:
+
+To understand and work with pretrained word embeddings.
+
+
+
+Tasks Performed:
+
+
+
+Loaded pretrained Word2Vec and/or GloVe embeddings
+
+
+
+Similar Words:
+
+Example:
+
+king → queen, prince, royal
+
+
+
+Analogy Task:
+
+king - man + woman ≈ queen
+
+
+
+PCA Visualization:
+
+
+
+Selected 10–20 words
+
+
+
+Reduced dimensions using PCA
+
+
+
+Plotted words in 2D space
+
+
+
+Bonus:
+
+
+
+Compared similarity results between Word2Vec and GloVe
+
+
+
+Observed slight differences in semantic relationships
+
+
+
+Conclusion:
+
+Word embeddings capture semantic meaning of words and allow similarity and analogy operations.
+
+
+
+MINI NLP APPLICATION – FAKE NEWS DETECTION SYSTEM
+
+
+
+Objective:
+
+To build a machine learning model to classify news as Fake or Real.
+
+
+
+Dataset:
+
+Fake and Real News dataset
+
+Two classes:
+
+
+
+Fake
+
+
+
+Real
+
+
+
+Steps Performed:
+
+
+
+Text Cleaning
+
+
+
+Stopword Removal
+
+
+
+TF-IDF Vectorization
+
+
+
+Model Used:
+
+
+
+Logistic Regression
+
+OR
+
+
+
+Naive Bayes
+
+
+
+Evaluation:
+
+
+
+Accuracy Score
+
+
+
+Confusion Matrix
+
+
+
+Classification Report
+
+
+
+Top Important Words:
+
+
+
+Extracted most important words for Fake and Real classes using model coefficients
+
+
+
+
+
