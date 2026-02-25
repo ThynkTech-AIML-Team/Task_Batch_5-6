@@ -1,15 +1,5 @@
-# Virtual environments
-venv/
-.venv/
-venvv/
-new_env/
-nlp_env/
-
-# Python cache
+.ipynb_checkpoints/
 __pycache__/
-*.pyc
-
-# Large embeddings
-glove*.txt
-glove*.zip
-venv/ 
+*.pkl
+Dataset/
+models/
