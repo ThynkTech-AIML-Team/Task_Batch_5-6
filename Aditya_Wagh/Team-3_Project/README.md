@@ -1,26 +1,132 @@
-# Project Title
-AI Fake News Detection System
+# 🧠 AI Fake News Detection System
 
-# Objective
-Build ML model to classify fake and real news.
+## 📌 Project Overview
 
-# Dataset
-Fake and Real News Dataset (Kaggle) - https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+The AI Fake News Detection System is a Machine Learning and Natural Language Processing (NLP) project that classifies news articles as Fake News or Real News.
 
-# Models Used
-Naive Bayes
-Logistic Regression
+The system performs text preprocessing, feature extraction using TF-IDF, and trains multiple machine learning models to achieve high classification accuracy.
 
-# Accuracy
-Naive Bayes: ~95%
-Logistic Regression: ~98%
+A Streamlit web application is deployed for real-time prediction.
 
-# Features
-TF-IDF
-Confusion Matrix
-Classification Report
-Streamlit Web App
+---
 
-# How to Run
-CODE: pip install -r requirements.txt
-      streamlit run app.py
+## 🎯 Objective
+
+To build a text classification model that detects whether a news article is fake or real using Machine Learning and NLP techniques.
+
+---
+
+## 📂 Dataset
+
+Dataset used: Fake and Real News Dataset (ISOT)
+
+Source:  
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
+Dataset contains:
+
+- Fake.csv → Fake news articles  
+- True.csv → Real news articles  
+
+Total dataset size: ~44,000 news articles.
+
+---
+
+## ⚙️ Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Natural Language Processing (NLP)  
+- TF-IDF Vectorization  
+- Streamlit  
+- Matplotlib  
+
+---
+
+## 🧹 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Combined Fake and Real datasets  
+- Added labels (Fake = 0, Real = 1)  
+- Converted text to lowercase  
+- Removed punctuation and special characters  
+- Removed stopwords  
+- Merged title and text into a single content column  
+
+This prepares the dataset for feature extraction and model training.
+
+---
+
+## 🔍 Feature Engineering
+
+Used:
+
+- TF-IDF Vectorizer  
+- N-gram features  
+
+TF-IDF converts textual data into numerical form so machine learning models can process it.
+
+---
+
+## 🤖 Machine Learning Models
+
+Multiple models were trained and compared:
+
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Passive Aggressive Classifier  
+- Ensemble Model (Best Performing Model)  
+
+---
+
+## 📊 Model Performance
+
+| Model | Accuracy |
+|------|----------|
+| Logistic Regression | ~98% |
+| SVM | ~99% |
+| Passive Aggressive | ~99% |
+| Ensemble Model | 99.41% |
+
+The ensemble model achieved the highest validation accuracy.
+
+---
+
+## 📈 Evaluation Metrics
+
+Model evaluation was performed using:
+
+- Accuracy  
+- Confusion Matrix  
+- Precision  
+- Recall  
+- F1-Score  
+
+---
+
+## 🌐 Streamlit Web Application
+
+A Streamlit web application was developed to allow real-time fake news detection.
+
+Features:
+
+- User enters news text  
+- Model processes and predicts  
+- Displays result as Fake or Real  
+
+---
+
+## 📄 Output Demonstration
+
+### Real News Prediction
+
+![Real News Output](https://github.com/user-attachments/assets/9dc9fd94-65f0-4374-ab63-9b6a310c57c3)
+
+### Fake News Prediction
+
+![Fake News Output](https://github.com/user-attachments/assets/87154d95-092b-4d93-bb8d-f23f8981b53d)
+
+These outputs demonstrate successful deployment and classification.
