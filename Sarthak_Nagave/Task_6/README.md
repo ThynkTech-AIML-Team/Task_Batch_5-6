@@ -69,7 +69,7 @@ LSTM achieved superior temporal modeling performance compared to baseline ML mod
 
 ---
 
-## 👤 Team 2 - Sarthak Nagave, Athrva Admile, Lalit More, Ankita Kakade, Shinchan Rao, Venkatesh Gudade, Anish Kadam
+## 👤 Team 2 - Sarthak Nagave, Athrva Admile, Lalit More, Ankita Kakade, Sinchan Rao, Venkatesh Gudade, Anish Kadam
 
 **Sarthak Nivrutti Nagave**  
 Deep Time-Series Modeling & Failure Probability Optimization
