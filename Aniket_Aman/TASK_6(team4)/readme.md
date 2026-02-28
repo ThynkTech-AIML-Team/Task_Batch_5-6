@@ -9,7 +9,7 @@ The system leverages a hybrid CNN-RNN architecture to extract visual features an
 
 ## 🌐 Live Demo
 You can test out the interactive web application here: 
-👉 **[COCO Image Captioner Live App]((https://huggingface.co/spaces/golulog/coco-image-captioner))**
+👉 **[COCO Image Captioner Live App](https://huggingface.co/spaces/golulog/coco-image-captioner)**
 
 *(Note: This is a temporary Gradio live link and requires the host environment to be actively running).*
 
@@ -81,3 +81,4 @@ The CNN-LSTM architecture successfully learned the mapping between complex image
 
 
 CNN-RNN Architecture, MobileNetV2 Feature Extraction & Web UI Integration
+
