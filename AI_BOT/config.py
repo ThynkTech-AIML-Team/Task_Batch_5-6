@@ -1,0 +1,3 @@
+API_KEY = ""
+
+MIN_QUESTIONS = 5
