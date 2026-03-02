@@ -1,0 +1,7 @@
+google-genai==0.3.0
+sounddevice
+numpy
+scipy
+faster-whisper
+transformers
+torch
