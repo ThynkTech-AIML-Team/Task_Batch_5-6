@@ -1,0 +1,22 @@
+Rahul Verma
+rahul.verma@techmail.com
++91-9123456789
+
+EDUCATION
+B.Tech in Electronics and Communication, IIT Bombay, 2016
+MBA in Technology Management, IIM Ahmedabad, 2018
+
+EXPERIENCE
+Data Analyst — Infosys, 2018–2021
+  - Analyzed large datasets using Python, Pandas, and NumPy
+  - Built dashboards in Power BI and Tableau
+
+Senior Data Scientist — Wipro, 2021–Present
+  - Developed deep learning models using PyTorch and Keras
+  - Led a team of 5 engineers on NLP projects
+
+SKILLS
+Python, R, SQL, PostgreSQL, Deep Learning, NLP, PyTorch, Keras, Pandas, NumPy, Power BI, Tableau, Spark, Hadoop, Git
+
+ORGANIZATIONS
+Infosys, Wipro, IIT Bombay, IIM Ahmedabad, IEEE

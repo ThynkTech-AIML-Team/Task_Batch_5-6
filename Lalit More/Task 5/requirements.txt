@@ -1,0 +1,10 @@
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow == 2.16.1
+ipynb
+ipykernel
+opencv-contrib-python==4.9.0.80
+streamlit==1.30.0
+pillow

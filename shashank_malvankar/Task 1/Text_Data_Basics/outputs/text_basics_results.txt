@@ -1,0 +1,19 @@
+TEXT DATA BASICS RESULTS
+=========================
+
+PARAGRAPHS:
+1. Natural Language Processing (NLP) is a field of Artificial Intelligence. It allows computers to understand human language.
+2. NLP is used in chatbots, sentiment analysis, translation, and many real-world applications.
+
+SENTENCES:
+1. Natural Language Processing (NLP) is a field of Artificial Intelligence.
+2. It allows computers to understand human language.
+3. NLP is used in chatbots, sentiment analysis, translation, and many real-world applications.
+
+TOKENS:
+['Natural', 'Language', 'Processing', '(', 'NLP', ')', 'is', 'a', 'field', 'of', 'Artificial', 'Intelligence', '.', 'It', 'allows', 'computers', 'to', 'understand', 'human', 'language', '.', 'NLP', 'is', 'used', 'in', 'chatbots', ',', 'sentiment', 'analysis', ',', 'translation', ',', 'and', 'many', 'real-world', 'applications', '.']
+
+COUNTS:
+Paragraph count: 2
+Sentence count: 3
+Token count: 37

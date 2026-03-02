@@ -1,0 +1,4 @@
+Model,Similarity (king vs queen)
+GloVe,0.63364697
+Word2Vec,0.11936756
+FastText,-0.16137882

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "SpaceX Starship Progress",
+        "text": "SpaceX is making rapid progress with its Starship spacecraft, which is designed to carry humans to the Moon, Mars, and beyond. The company has conducted several high-altitude flight tests of the Starship's upper stage. Elon Musk, the CEO of SpaceX, has stated that the goal is to make life multi-planetary. This ambitious project requires significant innovation in rocket technology and refueling in space. NASA is also a key partner, having selected Starship as the lunar lander for its Artemis program. The next major milestone is an orbital flight test which will demonstrate the full capability of the launch vehicle."
+    },
+    {
+        "id": 2,
+        "title": "Quantum Computing Breakthrough",
+        "text": "Researchers have announced a significant breakthrough in quantum computing that could lead to much faster processors. They have managed to stabilize qubits for much longer periods than previously possible. Qubits are the basic units of quantum information and are extremely sensitive to their environment. This instability has been one of the biggest challenges in building practical quantum computers. The new method uses a specialized cooling technique to reduce interference. If scaled up, this could revolutionize fields such as cryptography, material science, and pharmaceutical research. Tech giants are already investing billions into this technology."
+    },
+    {
+        "id": 3,
+        "title": "Renewable Energy Growth",
+        "text": "Global investment in renewable energy continues to soar as countries look to reduce their carbon footprint. Solar and wind power have become the cheapest sources of new electricity in many parts of the world. This transition is being driven by both falling costs and supportive government policies. However, the intermittent nature of solar and wind requires better energy storage solutions like giant batteries. Experts predict that the share of renewables in the global energy mix will exceed 50% by 2030. Many major oil companies are also shifting their focus towards green energy to remain competitive in the coming decades."
+    }
+]

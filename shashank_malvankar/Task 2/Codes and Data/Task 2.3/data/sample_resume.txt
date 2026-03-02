@@ -1,0 +1,18 @@
+John Smith
+Email: johnsmith@gmail.com
+Phone: +91 9876543210
+
+Education:
+Bachelor of Computer Engineering
+University of Mumbai
+
+Skills:
+Python, Machine Learning, NLP, SQL, Flask
+
+Experience:
+Intern at TCS
+Worked on AI-based resume screening system
+
+Organizations:
+Tata Consultancy Services
+Google Developer Student Club

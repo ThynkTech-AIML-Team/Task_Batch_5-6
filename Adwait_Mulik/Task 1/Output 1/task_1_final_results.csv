@@ -1,0 +1,16 @@
+review_id,content,sentiment
+1,The movie was absolutely fantastic! The acting was world-class and the plot was gripping.,Positive
+2,It was a terrible experience. The story was boring and the pacing was way too slow.,Negative
+3,"An average film. Some parts were good, but it lacked a strong ending.",Positive
+4,Highly recommended! One of the best sci-fi movies I have seen in years.,Positive
+5,Total waste of time. The dialogue was cringy and the logic made no sense.,Negative
+6,A masterpiece of cinematography. Every frame was like a painting.,Negative
+7,"I didn't like the lead actor's performance, but the music was beautiful.",Positive
+8,Pure garbage. I walked out of the theater after thirty minutes.,Positive
+9,Unexpectedly brilliant. I went in with low expectations but was blown away.,Positive
+10,The plot was predictable and the characters were one-dimensional.,Negative
+11,"A fun, lighthearted comedy that the whole family can enjoy.",Positive
+12,Too long and repetitive. They could have cut 40 minutes easily.,Positive
+13,Stunning visuals but the emotional depth was missing.,Positive
+14,"Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and manipulate human language. NLP draws from many disciplines, including computer science and computational linguistics, to fill the gap between human communication and computer understanding.",
+15,"Automatic text summarization is a key technique in NLP that uses algorithms to reduce large texts while preserving essential information. Extractive methods select key passages from the original text, while abstractive methods generate new, unique summaries that capture the main ideas.",
